@@ -90,10 +90,12 @@ data
 
 ```
 
-### Download i3d pretrained weight: [(link)](https://drive.google.com/file/d/1zp9kKj9WrYO5WZGXpVob1hWcaaYvFKd7/view?usp=drive_link) and store it in the pretrained_weights directory.
+### Download i3d pretrained weight: [(link)](https://drive.google.com/file/d/1zp9kKj9WrYO5WZGXpVob1hWcaaYvFKd7/view?usp=drive_link) and store it in the 'pretrained_weights' directory.
 
 
 ## Training:
+
+The model is trained with 4 NVIDIA GeForce RTX 2080 Ti GPUs.
 
 ### UCF -> UCF
 ```
@@ -138,7 +140,7 @@ python adaptation.py --dataset_name hmdb51 --batch_size 48
 
 ## Acknowledgements
 
-This work would not have been possible without the invaluable support and guidance of [Avijit Dasgupta](https://avijit9.github.io/), [Dr. Shankar gangisetty](https://sites.google.com/site/shankarsetty/home), Seshadri Mazumder
+This work would not have been possible without the invaluable support and guidance of [Avijit Dasgupta](https://avijit9.github.io/), [Dr. Shankar Gangisetty](https://sites.google.com/site/shankarsetty/home), Seshadri Mazumder
 , and [Prof. C. V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). Their contributions and assistance were helpful in reproducing the results of the paper "Overcoming Label Noise for Source-free Unsupervised Video Domain Adaptation." Thank you for your help and encouragement throughout this project.
 
 
