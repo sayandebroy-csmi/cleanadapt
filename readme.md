@@ -140,7 +140,7 @@ python adaptation.py --dataset_name hmdb51 --batch_size 48
 
 ## Acknowledgements
 
-This work would not have been possible without the invaluable support and guidance of [Avijit Dasgupta](https://avijit9.github.io/), [Dr. Shankar Gangisetty](https://sites.google.com/site/shankarsetty/home), Seshadri Mazumder
+This work would not have been possible without the invaluable support and guidance of [Avijit Dasgupta](https://avijit9.github.io/), [Dr. Shankar Gangisetty](https://sites.google.com/site/shankarsetty/home), [Seshadri Mazumder](https://scholar.google.com/citations?user=uCUx1kAAAAAJ&hl=en)
 , and [Prof. C. V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). Their contributions and assistance were helpful in reproducing the results of the paper "Overcoming Label Noise for Source-free Unsupervised Video Domain Adaptation." Thank you for your help and encouragement throughout this project.
 
 
